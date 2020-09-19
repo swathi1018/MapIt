@@ -8,15 +8,19 @@ populateStates = () => {
     }
 };
 
+win = () => {
+    document.getElementById("progress").setAttribute("style", "width: " + 100 + "%;")
+    document.getElementById("current-state").innerHTML = "You Win!";
+    pause();
+}
+
 getRandomState = () => {
     let rand = Math.floor(Math.random() * states.length);
     if(states.length > 0){
         document.getElementById("current-state").innerHTML = "Click on " + states[rand];
     }
     else{
-        document.getElementById("progress").setAttribute("style", "width: " + 100 + "%;")
-        document.getElementById("current-state").innerHTML = "You Win!";
-        pause();
+        win();
     }
     return states[rand];
 };
@@ -120,4 +124,3 @@ window.onload = function () {
     }
 
 };
-
