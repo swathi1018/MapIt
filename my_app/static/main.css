@@ -1,0 +1,86 @@
+img {
+    width: 200px;
+    height: 200px;
+}
+
+body {
+    margin: auto;
+    text-align: center;
+}
+
+/* #map {
+    width: 900px;
+    height: 600px;
+} */
+
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+    position: relative;
+    width: 75%;
+}
+
+/* Make the image responsive */
+.container #map {
+    width: 100%;
+    height: auto;
+}
+
+.container .state-button {
+    display:inline-block;
+    background-color: #404040;
+    width: 12px;
+    height: 12px;
+    padding: 10 px 16 px;
+    line-height: 1.33;
+    position: absolute;
+    top: 68%;
+    left: 42%;
+    border-radius: 50%;
+}
+
+h1 {
+    background-color: lightblue;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+.facts {
+    font-size: 1.25em;
+}
+
+#color {
+    color: blue;
+}
+
+button {
+    width: 100px;
+    height:  50px;
+}
+
+#container {
+    text-align: center;
+}
+
+
+.post {
+    margin-top: 75px !important;
+    width: 50%;
+    margin: auto;
+}
+
+#myProgress {
+    width: 100%;
+    background-color: grey;
+  }
+  
+  #myBar {
+    width: 1%;
+    height: 30px;
+    background-color: green;
+  }
